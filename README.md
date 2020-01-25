@@ -1,4 +1,4 @@
-# simple-flask-1
+# A simple rest api to load airlines data into a DB
 
 Just playing around with flask while connecting to a PostGreSQL DB with a single table containing information about airlines.
 
