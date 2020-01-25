@@ -27,7 +27,7 @@ Just playing around with flask while connecting to a PostGreSQL DB with a single
 
 ## Database notes
 
-The app requires a existing instance of PostGREs, which the tables defined as per models.py.
+The app requires an existing instance of PostGREs, with the tables defined as per models.py.
 The tables can be created, for example, using the Flask shell:
 
     $ flask shell
