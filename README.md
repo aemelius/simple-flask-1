@@ -15,14 +15,14 @@ Just playing around with flask while connecting to a PostGreSQL DB with a single
 
     curl -v  http://afe30604-simpleflask1-simp-a5f3-1053053844.eu-west-2.elb.amazonaws.com/api/v1/airlines/
    
-![get_single_airline](get_single_airline.png "get_single_airline")
+![get_all_airlines](get_all_airlines.png "get_all_airlines")
    
 
 ### Get a specific airline by id
 
     curl -v  http://afe30604-simpleflask1-simp-a5f3-1053053844.eu-west-2.elb.amazonaws.com/api/v1/airlines/4
     
-![get_all_airlines](get_all_airlines.png "get_all_airlines")
+![get_single_airline](get_single_airline.png "get_single_airline")
 
 
 ## Database notes
