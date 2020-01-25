@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: simple-flask-1
+  namespace: "simple-flask-1"
+spec:
+  selector:
+    app: simple-flask-1
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 5000
+      targetPort: 5000

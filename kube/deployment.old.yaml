@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: "simple-flask-1"
+  namespace: "simple-flask-1"
+  labels:
+    purpose: "just_playing_around"
+spec:
+  containers:
+  - name: simple-flask-1
+    image: "@@@IMAGE@@@"
+    env:
+    - name: DB_USER
+      value: "@@@DB_USER@@@"
+    - name: DB_NAME
+      value: "simpleflask1"
+    - name: DB_HOST
+      value: "simple-flask-1.cvu2uufq6b3p.eu-west-2.rds.amazonaws.com"
+    - name: DB_PASSWORD
+      value: "@@@DB_PASSWORD@@@"
